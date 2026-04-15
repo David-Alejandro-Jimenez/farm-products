@@ -1,0 +1,12 @@
+:root {
+    --cream:      #f5efe0;          /* beige crema — fondo general */
+    --parchment:  #e8dcc8;          /* pergamino — bordes y fondos suaves */
+    --brown:      #6b4226;          /* marrón medio — textos secundarios */
+    --dark-brown: #3b1f0e;          /* marrón oscuro — textos principales */
+    --olive:      #7a8c52;          /* verde olivo — botón WhatsApp */
+    --olive-dark: #4e5a32;          /* olivo oscuro — hover del botón */
+    --gold:       #c9963a;          /* dorado — acentos decorativos */
+    --rust:       #a0522d;          /* óxido — degradados de tarjetas */
+    --warm-white: #fdf8f0;          /* blanco cálido — fondos de tarjetas */
+    --shadow:     rgba(59,31,14,0.15); /* sombra marrón semitransparente */
+}
