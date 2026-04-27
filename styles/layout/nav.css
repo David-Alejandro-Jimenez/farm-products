@@ -1,0 +1,38 @@
+nav {
+    position: sticky;               /* se queda "pegado" arriba al hacer scroll */
+    top: 0;                         /* pegado al borde superior */
+    z-index: 100;                   /* encima del contenido pero debajo de la textura */
+    background: var(--dark-brown);  /* fondo marrón oscuro */
+    border-bottom: 3px solid var(--gold); /* línea dorada decorativa abajo */
+    display: flex;                  /* acomoda hijos en fila horizontal */
+    align-items: center;            /* centra verticalmente logo y enlaces */
+    justify-content: space-between; /* logo a la izquierda, enlaces a la derecha */
+    padding: 0.9rem 2.5rem;         /* espacio interno: arriba/abajo y lados */
+}
+
+.nav-logo {
+    font-family: 'Playfair Display', serif; /* tipografía elegante */
+    font-size: 1.4rem;
+    color: var(--gold);
+    letter-spacing: 0.05em; /* espaciado entre letras */
+}
+
+.nav-links {
+    display: flex;       /* acomoda los <li> en fila horizontal */
+    gap: 2rem;           /* espacio entre cada enlace */
+    list-style: none;    /* elimina los puntos de la lista */
+}
+
+.nav-links a {
+    color: var(--parchment);
+    text-decoration: none;    /* elimina el subrayado por defecto */
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase; /* convierte el texto a MAYÚSCULAS */
+    transition: color 0.2s;    /* la transición de color tarda 0.2 segundos */
+}
+
+.nav-links a:hover {
+    color: var(--gold); /* cambia a dorado */
+}
